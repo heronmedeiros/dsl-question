@@ -1,7 +1,5 @@
 class Questao
 
-  #@@gabarito = []
-
   def initialize(titulo, &bloco)
     @titulo = titulo
     @dados = {
